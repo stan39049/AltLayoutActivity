@@ -112,7 +112,8 @@
         android:id="@+id/directReportsLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="200dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="4dp"
         android:paddingTop="8dp"
         android:text="@string/direct_reports"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -123,6 +124,7 @@
         android:id="@+id/directReportsRecyclerView"
         android:layout_width="300dp"
         android:layout_height="300dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/directReportsLabel" />
 </androidx.constraintlayout.widget.ConstraintLayout>
