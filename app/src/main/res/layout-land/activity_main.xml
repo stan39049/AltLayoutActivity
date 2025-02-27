@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:paddingTop="8dp"
-        android:text="Email"
+        android:text="@string/email"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toEndOf="@+id/profile_photo"
         app:layout_constraintTop_toTopOf="parent" />
@@ -52,7 +52,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         android:paddingTop="8dp"
-        android:text="Extension"
+        android:text="@string/extension"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toEndOf="@+id/profile_photo"
         app:layout_constraintTop_toBottomOf="@+id/email" />
@@ -67,13 +67,13 @@
         app:layout_constraintTop_toBottomOf="@+id/extensionLabel" />
 
     <TextView
-        android:id="@+id/departmentLabel2"
+        android:id="@+id/departmentLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         android:paddingTop="8dp"
-        android:text="Department"
+        android:text="@string/department"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toEndOf="@+id/profile_photo"
         app:layout_constraintTop_toBottomOf="@+id/extension" />
@@ -85,7 +85,7 @@
         android:layout_marginStart="20dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         app:layout_constraintStart_toEndOf="@+id/profile_photo"
-        app:layout_constraintTop_toBottomOf="@+id/departmentLabel2" />
+        app:layout_constraintTop_toBottomOf="@+id/departmentLabel" />
 
     <TextView
         android:id="@+id/supervisorLabel"
@@ -94,7 +94,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
         android:paddingTop="8dp"
-        android:text="Supervisor"
+        android:text="@string/supervisor"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toEndOf="@+id/profile_photo"
         app:layout_constraintTop_toBottomOf="@+id/department" />
@@ -114,7 +114,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="200dp"
         android:paddingTop="8dp"
-        android:text="Direct Reports"
+        android:text="@string/direct_reports"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintStart_toEndOf="@+id/profile_photo"
         app:layout_constraintTop_toTopOf="parent" />
